@@ -20,11 +20,12 @@ Based on the geometric interpretation of the Perceptron:
     * All points of Class -1 lie in the negative half-space (`u(x) < 0`).
 
 ### Limitations
-The algorithm is guaranteed to converge and solve the problem **ONLY if the dataset is linearly separable**. For non-separable data (e.g., XOR), it will fail to find a perfect solution, and will stop after it reaches a max value of epochs.
+The algorithm is guaranteed to converge and solve the problem **ONLY if the dataset is linearly separable**. For non-separable data (e.g., XOR), it will fail to find a perfect solution, and will stop after it reaches a max value of epochs.<br>
 
 <p align="center">
-  <img src="perceptron.png" alt="Perceptron" width="600">
+  <img src="perceptron.png" alt="Perceptron" width="750">
 </p>
+
 ---
 
 ## Getting Started

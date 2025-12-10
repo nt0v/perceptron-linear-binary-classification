@@ -22,6 +22,9 @@ Based on the geometric interpretation of the Perceptron:
 ### Limitations
 The algorithm is guaranteed to converge and solve the problem **ONLY if the dataset is linearly separable**. For non-separable data (e.g., XOR), it will fail to find a perfect solution, and will stop after it reaches a max value of epochs.
 
+<p align="center">
+  <img src="perceptron.png" alt="Perceptron" width="600">
+</p>
 ---
 
 ## Getting Started

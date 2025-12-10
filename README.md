@@ -8,7 +8,7 @@ Single-Layer Perceptron Implementation for Linear Binary Classification in Pytho
 
 ---
 
-## 📖 Problem Description
+## Problem Description
 
 This program solves the problem of separating two classes of data points by finding a linear decision boundary (hyperplane).
 
@@ -24,7 +24,7 @@ The algorithm is guaranteed to converge and solve the problem **ONLY if the data
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project on your local machine, follow these steps:
 
@@ -52,7 +52,7 @@ python main.py data/dataset_hard.txt
 
 ---
 
-## 📄 Input Data Format
+## Input Data Format
 
 If you want to train the Perceptron on your own data, create a `.txt` file where each line represents a data point. The format must be **space-separated** with exactly 3 columns:
 
@@ -72,7 +72,7 @@ x1 x2 label
 
 ---
 
-## 👤 Author
+## Author
 
 **Ntovonis Panagiotis**
 * Email: panag.ntov@gmail.com
@@ -80,6 +80,6 @@ x1 x2 label
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available for educational purposes.

@@ -65,5 +65,5 @@ def visualize_training(data_file, history_file):
         text_info.set_text(status_text)  
         return line, text_info, current_point_highlight
     ani = animation.FuncAnimation(fig, update, frames=len(history), interval=30, blit=True, repeat=False)
-    ani.save('perceptron_training.gif', writer='pillow', fps=15)
+
     plt.show()

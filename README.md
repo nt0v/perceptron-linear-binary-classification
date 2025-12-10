@@ -41,8 +41,6 @@ Install the dependencies using pip:
 pip install numpy matplotlib
 ```
 
-*(Alternatively, if you use a virtual environment, you can install from the requirements file: `pip install -r requirements.txt`)*
-
 ### 2. Running the Program
 The main script takes the path to a dataset file as an argument.
 

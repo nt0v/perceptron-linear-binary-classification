@@ -3,7 +3,7 @@
 Single-Layer Perceptron Implementation for Linear Binary Classification in Python. Built from scratch to demonstrate the mathematical foundations of neural networks without relying on high-level ML libraries.
 
 <p align="center">
-  <img src="perceptron_training.gif" alt="Perceptron Training Animation" width="600">
+  <img src="img/perceptron_training.gif" alt="Perceptron Training Animation" width="600">
 </p>
 
 ---
@@ -23,7 +23,7 @@ Based on the geometric interpretation of the Perceptron:
 The algorithm is guaranteed to converge and solve the problem **ONLY if the dataset is linearly separable**. For non-separable data (e.g., XOR), it will fail to find a perfect solution, and will stop after it reaches a max value of epochs.<br>
 
 <p align="center">
-  <img src="perceptron.png" alt="Perceptron" width="750">
+  <img src="img/perceptron.png" alt="Perceptron" width="750">
 </p>
 
 ---

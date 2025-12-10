@@ -76,7 +76,7 @@ x1 x2 label
 
 **Ntovonis Panagiotis**
 * Email: panag.ntov@gmail.com
-* GitHub: [Ntovonis](https://github.com/Ntovonis)
+* GitHub: [nt0v](https://github.com/nt0v)
 
 ---
 

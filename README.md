@@ -74,6 +74,28 @@ x1 x2 label
 
 ---
 
+## Included Datasets
+
+The repository comes with two sample datasets located in the `data/` folder, allowing you to test both successful and unsuccessful training scenarios:
+
+### 1. Linearly Separable Data (`linearly_separable.txt`)
+A standard dataset where the two classes are distinct and can be perfectly separated by a line. Use this to observe a **successful convergence**.
+
+Run command:
+```bash
+python main.py data/linearly_separable.
+```
+
+### 2. XOR Problem (`xor.txt`)
+Represents the classic **XOR** problem (non-linearly separable). Use this to demonstrate the **limitations** of the Single-Layer Perceptron. The algorithm will fail to find a perfect solution and will stop after reaching the maximum number of epochs.
+
+Run command:
+```bash
+python main.py data/xor.txt
+```
+
+---
+
 ## Author
 
 **Ntovonis Panagiotis**
